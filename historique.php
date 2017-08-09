@@ -36,12 +36,20 @@
       width: 90%;
       height: 100%;
       left: 10px;
-      top: 10px;
       line-height: 200px;
       font-size: 50px;
       font-weight: bold;
       color: white;
       text-align: right;
+      font-size: 2.5em;
+
+    }
+
+    #carousel.panels-backface-invisible figure {
+      -webkit-backface-visibility: hidden;
+         -moz-backface-visibility: hidden;
+           -o-backface-visibility: hidden;
+              backface-visibility: hidden;
     }
 
 #carousel figure:nth-child(1) { background-image: url('inc/img/batiments/Agences carrés/1.jpg')}
@@ -82,9 +90,8 @@ img{
       L’année 2011 est marquée par la mise en place de la plateforme d’approvisionnement « Appr’Odis » permettant de centraliser les approvisionnements. <br /><br />
       A partir de 2006, le groupe ne cesse de croître, comptant aujourd’hui 11 agences réparties dans le Grand Ouest avec un chiffre d'affaires de plus de … millions en 2016.
       </p>      
-    <img src="inc/img/historique ODIS.png" width="80%" style="margin-left:40px;display:inline;float:left;"" />
   </div>
-  <div style="width:20%;display:inline;float:left;">
+  <div style="width:30%;display:inline;float:left;margin-top: -100px;">
     <br /><br />
       <section class="containerSection">
         <div id="carousel">
@@ -101,6 +108,8 @@ img{
           <figure>2016</figure>
         </div>
       </section>
+
+      <img src="inc/img/historique ODIS.png" width="150%" style="margin-left:-120px;display:inline;float:left;"" />
   </div>
   </div>
 </div><!-- /.container -->
@@ -117,6 +126,7 @@ function next(val){
 }
 
 $(function () {
+  document.getElementById('carousel').toggleClassName('panels-backface-invisible');
   document.getElementById("Historique du groupe").style.backgroundColor = 'rgba(255, 13, 13, 0.5)';
   document.getElementById("menuAbout").className= 'dropdown open';
   $('#menuAbout').on('mouseleave', function(e) {
