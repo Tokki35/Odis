@@ -3,6 +3,7 @@
 
 <div style="margin-top: 120px;">
   <?php $cheminImg = "../inc/img/Automobile/Visibilité/"; ?>
+  <?php $cheminImgBandeau = "../inc/img/Automobile/"; ?>
   <img style="margin-left:5px;float:left" src="<?php echo $cheminImg; ?>Visuel.png" />
   <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
     <h1 style="color:rgb(255,0,0)"><img src="../inc/img/puce-H1-2.png" />Visibilité</h1><br />
@@ -19,14 +20,15 @@
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Essuie-glaces.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Rétroviseurs.png" />
   </div>  
-  <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
-    <p style="margin-left:95px;font-size:1.3em;"><u><b>Recommandation:</b></u> Assurez-vous régulièrement du bon fonctionnement de tous vos éclairages. Dans le cas où vos phares deviennent opaques ouvrez vos optiques par l’arrière pour que l’humidité parte facilement. De même que pour pouvoir récupérer des phares devenus ternes par l’usure, pensez à les polir .<br /><br />
+  <div style="margin-top: 100px;float:left;margin-left:1%;width:70%">
+  <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(255,0,0);padding:15px">
+    <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />
+    Assurez-vous régulièrement du bon fonctionnement de tous vos éclairages. Dans le cas où vos phares deviennent opaques ouvrez vos optiques par l’arrière pour que l’humidité parte facilement. De même que pour pouvoir récupérer des phares devenus ternes par l’usure, pensez à les polir .<br /><br />
     Changez vos essuie-glace (en moyenne tous les 6 à 12 mois) dès l’apparition de symptômes d’usure tels que l’apparition de traînées sur le pare-brise, des mouvements de balais  saccadés, bruits des  balais … 
     </p>
   </div>
 </div><!-- /.container -->
     
-    <?php $cheminImgBandeau = "../inc/img/Automobile/"; ?>
     <div style="display:inline;float:left;margin-left:100px;width:1000px;font-size:1.1em;">
       <marquee behavior="alternate" scrollamount="2" scrolldelay="50" height="180" width="100%" style="margin-top:50px;text-align: center;" direction="right">
         <img alt="Bosal" src="<?php echo $cheminImgBandeau; ?>/Logos bandeau/Bosal.png"  border="0">

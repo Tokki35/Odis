@@ -3,6 +3,7 @@
 
 <div style="margin-top: 120px;">
 	<?php $cheminImg = "../inc/img/Automobile/Moteur/"; ?>
+  <?php $cheminImgBandeau = "../inc/img/Automobile/"; ?>
   <img style="margin-left:5px;float:left" src="<?php echo $cheminImg; ?>Visuel.png" />
   <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
     <h1 style="color:rgb(255,0,0)"><img src="../inc/img/puce-H1-2.png" />Moteur</h1><br />
@@ -22,13 +23,14 @@
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Boîte de vitesse.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Culasse.png" />
   </div>  
-  <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
-    <p style="margin-left:95px;font-size:1.3em;"><u><b>Recommandation:</b></u> La durée de vie de votre moteur dépendra de votre conduite. Quelques petites astuces :  prendre une bonne qualité d’huile permet un meilleur fonctionnement de votre moteur, pensez à changer les filtres à gazole, air et huile régulièrement.
+  <div style="margin-top: 100px;float:left;margin-left:1%;width:70%">
+  <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(255,0,0);padding:15px">
+    <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />
+    La durée de vie de votre moteur dépendra de votre conduite. Quelques petites astuces :  prendre une bonne qualité d’huile permet un meilleur fonctionnement de votre moteur, pensez à changer les filtres à gazole, air et huile régulièrement.
     </p>
   </div>
 </div><!-- /.container -->
     
-    <?php $cheminImgBandeau = "../inc/img/Automobile/"; ?>
     <div style="display:inline;float:left;margin-left:100px;width:1000px;font-size:1.1em;">
       <marquee behavior="alternate" scrollamount="2" scrolldelay="50" height="180" width="100%" style="margin-top:50px;text-align: center;" direction="right">
         <img alt="Bosal" src="<?php echo $cheminImgBandeau; ?>/Logos bandeau/Bosal.png"  border="0">

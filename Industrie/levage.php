@@ -3,6 +3,7 @@
 
 <div style="margin-top: 120px;">
 	<?php $cheminImg = "../inc/img/Industrie/LEVAGE/"; ?>
+  <?php $cheminImgBandeau = "../inc/img/Industrie/"; ?>
   <img style="margin-left:5px;float:left" src="<?php echo $cheminImg; ?>Visuel.png" />
    <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
     <h1 style="color:rgb(0,176,80)"><img src="../inc/img/puce-H1-2.png" />Levage - Manutention</h1><br />
@@ -32,8 +33,13 @@
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>poulies.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>roulettes.png" />
   </div>
+  <div style="margin-top: 100px;float:left;margin-left:1%;width:70%;">
+    <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(0,204,102);padding:15px">
+    <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />
+    Tous systèmes de levage et de manutention sont soumis à une réglementation stricte concernant notamment la formation des salariés qui les utilisent, les autorisations de conduite et la maintenance des équipements. 
+    </p>
+  </div> 
 
-  <?php $cheminImgBandeau = "../inc/img/Industrie/"; ?>
   <div style="display:inline;float:left;margin-left:30px;width:1000px;font-size:1.1em;">
     <marquee behavior="alternate" scrollamount="2" scrolldelay="50" height="180" width="100%" style="margin-top:50px;text-align: center;" direction="right">
       <img alt="Bosal" src="<?php echo $cheminImgBandeau; ?>/Logos bandeau/Brain Bee.png"  border="0">

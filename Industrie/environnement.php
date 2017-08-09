@@ -3,6 +3,7 @@
 
 <div style="margin-top: 120px;">
 	<?php $cheminImg = "../inc/img/Industrie/ENVIRONNEMENT/"; ?>
+  <?php $cheminImgBandeau = "../inc/img/Industrie/"; ?>
   <img style="margin-left:5px;float:left" src="<?php echo $cheminImg; ?>Visuel.png" />   
   <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
     <h1 style="color:rgb(0,176,80)"><img src="../inc/img/puce-H1-2.png" />Environnement - Stockage</h1><br />
@@ -21,11 +22,18 @@
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>absorbants universel.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>supports de soutirage.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>citernes cuves.png" />
-    <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>caisses palettes.png" />
-    
+    <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>caisses palettes.png" />    
   </div>
+  <div style="margin-top: 100px;float:left;margin-left:1%;width:70%;">
+    <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(0,204,102);padding:15px">
+    <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />
+    Plusieurs critères sont à prendre en compte dans le choix de votre bac de rétention.<br />
+    Tout d’abord le choix entre un bac en polyéthylène ou un bac en acier se fera en fonction de la nature de votre produit stocké. Le Bac en polyéthylène convient pour les produits polluants et nocifs mais pas pour les produits inflammables. Alors que le bac en acier galvanisé convient pour les huiles, solvants, peintures mais pas pour les produits corrosifs.<br /><br />
+
+    De plus vérifier bien la compatibilité des produits que vous stocker sur le même bac de rétention. Par exemple, un produit toxique n’est pas compatible avec un produit inflammable.
+    </p>
+  </div> 
   
-  <?php $cheminImgBandeau = "../inc/img/Industrie/"; ?>
   <div style="display:inline;float:left;margin-left:30px;width:1000px;font-size:1.1em;">
     <marquee behavior="alternate" scrollamount="2" scrolldelay="50" height="180" width="100%" style="margin-top:50px;text-align: center;" direction="right">
       <img alt="Bosal" src="<?php echo $cheminImgBandeau; ?>/Logos bandeau/Brain Bee.png"  border="0">

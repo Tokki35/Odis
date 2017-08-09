@@ -3,6 +3,7 @@
 
 <div style="margin-top: 120px;">
 	<?php $cheminImg = "../inc/img/Industrie/EQUIPEMENT/"; ?>
+  <?php $cheminImgBandeau = "../inc/img/Industrie/"; ?>
   <img style="margin-left:5px;float:left" src="<?php echo $cheminImg; ?>Visuel.png" />
   <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
     <h1 style="color:rgb(0,176,80)"><img src="../inc/img/puce-H1-2.png" />Equipement atelier</h1><br />
@@ -25,8 +26,13 @@
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>chauffages.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>servantes d'atelier.png" />    
   </div>
+  <div style="margin-top: 100px;float:left;margin-left:1%;width:70%;">
+    <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(0,204,102);padding:15px">
+    <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />
+    Afin de garantir la durabilité et l’efficacité de votre compresseur, il est nécessaire de l’entretenir régulièrement. Vous devez le purger pour éviter que l’eau ne stagne et compromette l’étanchéité de voter réservoir. Nettoyez également le filtre à air, environ toutes les 50h d’utilisation, pour éliminer les particules fines. Enfin, il est important de vérifier le niveau d’huile et d’effectuer une vidange de votre compresseur toutes les 100h d’utilisation.
+    </p>
+  </div> 
 
-  <?php $cheminImgBandeau = "../inc/img/Industrie/"; ?>
   <div style="display:inline;float:left;margin-left:30px;width:1000px;font-size:1.1em;">
     <marquee behavior="alternate" scrollamount="2" scrolldelay="50" height="180" width="100%" style="margin-top:50px;text-align: center;" direction="right">
       <img alt="Bosal" src="<?php echo $cheminImgBandeau; ?>/Logos bandeau/Brain Bee.png"  border="0">

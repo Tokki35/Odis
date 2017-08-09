@@ -3,6 +3,7 @@
 
 <div style="margin-top: 120px;">
 	<?php $cheminImg = "../inc/img/Peinture/Masquage/"; ?>
+  <?php $cheminImgBandeau = "../inc/img/Peinture/"; ?>
   <img style="margin-left:5px;float:left" src="<?php echo $cheminImg; ?>Visuel.png" />
   <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
     <h1 style="color:rgb(255,192,0)"><img src="../inc/img/puce-H1-2.png" />Masquage</h1><br />
@@ -14,12 +15,13 @@
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Adhésifs.png" />
    <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Ruban décoration.png" />
   </div>
-  <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
-    <p style="margin-left:95px;font-size:1.3em;"><u><b>Recommandation:</b></u> Pensez à protéger les surfaces susceptibles d’être attaquées par les produits corrosifs ou tout simplement tâchées. 
+  <div style="margin-top: 100px;float:left;margin-left:1%;width:70%">
+  <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(255,192,0);padding:15px">
+    <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />
+    Pensez à protéger les surfaces susceptibles d’être attaquées par les produits corrosifs ou tout simplement tâchées. 
 Pensez à retirer le masquage avant que la peinture sèche. Lorsque vous décollez les bandes, utilisez le cutter avec précaution tout au long du ruban afin de ne pas arracher la peinture. 
     </p>
   </div>
-  <?php $cheminImgBandeau = "../inc/img/Peinture/"; ?>
   <div style="display:inline;float:left;margin-left:100px;width:1000px;font-size:1.1em;">
     <marquee behavior="alternate" scrollamount="2" scrolldelay="50" height="180" width="100%" style="margin-top:50px;text-align: center;" direction="right">
       <img alt="3M" src="<?php echo $cheminImgBandeau; ?>/Logos bandeau/3M.png"  border="0">
