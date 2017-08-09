@@ -1,0 +1,131 @@
+@media (min-width: 801px) {
+	.parallelogramme{
+		margin-left:100px;
+		top:0;
+		width:350px;
+		height:125px;
+		background:white;
+		-webkit-transform:skew(30deg);
+		-moz-transform:skew(30deg);
+		-o-transform:skew(30deg);
+		tranform:skew(30deg);
+	}
+
+	.parallelogramme img{
+		-webkit-transform:skew(-30deg);
+		-moz-transform:skew(-30deg);
+		-o-transform:skew(-30deg);
+		tranform:skew(-30deg);
+		margin-left:-15%;
+		margin-top:-18%;
+	}
+
+	.menuHaut {
+		top:0;
+		background-color:rgb(255,0,0)
+	}
+}
+
+@media (max-width: 995px) {
+	.parallelogramme{
+		margin-left:100px;
+		top:0;
+		width:22%;
+		height:100%;
+		background:white;
+		-webkit-transform:skew(30deg);
+		-moz-transform:skew(30deg);
+		-o-transform:skew(30deg);
+		tranform:skew(30deg);
+	}
+
+	.parallelogramme img{
+		width: 125%;
+		-webkit-transform:skew(-30deg);
+		-moz-transform:skew(-30deg);
+		-o-transform:skew(-30deg);
+		tranform:skew(-30deg);
+		margin-left:-15%;
+		margin-top:-18%;
+	}
+
+	.menuHaut {
+		height:6%;
+		top:0;
+		background-color:rgb(255,0,0)
+	}
+	
+	.textHeader {
+		position: absolute;
+		top: 5;
+		margin-left: 300px;
+		font-size: 1.2em;
+		color: white;
+		width: 230px;
+		text-align: right;
+	}
+}
+
+@media (min-width: 0px) and (max-width:599px){
+	.carteMenu img {
+		display: none;
+	}	
+}
+
+@media (min-width:600px) and (max-width:799px){
+	.carteMenu img {
+		display: none;
+	}
+	.textHeader {
+		position: absolute;
+		top: 2;
+		margin-left: 200px;
+		font-size: 1em;
+		color: white;
+		width: 230px;
+		text-align: right;
+	}
+}
+@media (min-width:800px) and (max-width:1209px){
+	.carteMenu img {
+		display: none;
+	}	
+	.textHeader {
+		position: absolute;
+		top: 5;
+		margin-left: 300px;
+		font-size: 1.2em;
+		color: white;
+		width: 230px;
+		text-align: right;
+	}
+}
+@media (min-width:1210px){	
+	.textHeader {
+		position: absolute;
+		top: 15;
+		margin-left: 500px;
+		font-size: 1.5em;
+		color: white;
+		width: 230px;
+		text-align: right;
+	}	
+	.carteMenu img {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 9999;
+		width: 275px;
+	}
+}
+
+h1{
+  color:rgba(89,89,89);
+}
+h1 b{
+  color:red;
+}
+
+p{
+	font-size:1.2em;
+}

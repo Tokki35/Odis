@@ -1,0 +1,93 @@
+@media (min-width: 801px) {
+	.parallelogramme{
+		margin-left:100px;
+		top:0;
+		width:350px;
+		height:125px;
+		background:white;
+		-webkit-transform:skew(30deg);
+		-moz-transform:skew(30deg);
+		-o-transform:skew(30deg);
+		tranform:skew(30deg);
+	}
+
+	.parallelogramme img{
+		-webkit-transform:skew(-30deg);
+		-moz-transform:skew(-30deg);
+		-o-transform:skew(-30deg);
+		tranform:skew(-30deg);
+		margin-left:-15%;
+		margin-top:-18%;
+	}
+
+	.menuHaut {
+		top:0;
+		background-color:rgb(255,0,0)
+	}
+
+	.etoileMenu {
+		width:20%;
+		position: absolute;
+		margin-top: -7px;
+		margin-left: -15px;
+	}
+}
+@media (min-width: 1210px) {
+	.carteMenu img {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 9999;
+		width: 275px;
+	}
+}
+
+@media (max-width: 995px) {
+	.parallelogramme{
+		margin-left:100px;
+		top:0;
+		width:22%;
+		height:100%;
+		background:white;
+		-webkit-transform:skew(30deg);
+		-moz-transform:skew(30deg);
+		-o-transform:skew(30deg);
+		tranform:skew(30deg);
+	}
+
+	.parallelogramme img{
+		width: 125%;
+		-webkit-transform:skew(-30deg);
+		-moz-transform:skew(-30deg);
+		-o-transform:skew(-30deg);
+		tranform:skew(-30deg);
+		margin-left:-15%;
+		margin-top:-18%;
+	}
+
+	.menuHaut {
+		height:6%;
+		top:0;
+		background-color:rgb(255,0,0)
+	}
+
+	.etoileMenu {
+		display:none;
+	}
+	.carteMenu img {
+		display: none;
+	}
+}
+
+@media (max-width: 1209px){
+	.carteMenu img {
+		display: none;
+	}
+}
+
+.carousel-page{
+	width:100%;
+	height:400px;
+	background-color:#5f666d;
+	color:white;
+}

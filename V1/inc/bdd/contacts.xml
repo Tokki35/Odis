@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<contacts>
+	<elem>
+		<id>1</id>
+		<localisation>35</localisation>
+		<nom>CAPR</nom>
+		<telephone>02 99 36 42 36</telephone>
+		<adresseRue>11 Rue de la Longeraie </adresseRue>
+		<adresseCPVille>35760 St Gregoire</adresseCPVille>
+		<email>rennes@groupe-odis.fr</email>
+	</elem>
+	<elem>
+		<id>2</id>
+		<localisation>35</localisation>
+		<nom>Odis 35</nom>
+		<telephone>02 99 71 97 97</telephone>
+		<adresseRue>19, Avenue Joseph Ricordel</adresseRue>
+		<adresseCPVille>35600 Redon</adresseCPVille>
+		<email>redon@groupe-odis.fr</email>
+	</elem>
+	<elem>
+		<id>3</id>
+		<localisation>35</localisation>
+		<nom>Odis Ouest Injection 35</nom>
+		<telephone>02 99 71 47 04</telephone>
+		<adresseRue>126 Rue de Vannes</adresseRue>
+		<adresseCPVille>35600 Redon</adresseCPVille>
+		<email>redon@groupe-odis.fr</email>
+	</elem>
+	<elem>
+		<id>4</id>
+		<localisation>44</localisation>
+		<nom>DIFAC</nom>
+		<telephone>02 40 58 54 53</telephone>
+		<adresseRue>29, Bd du Betonnier Cholet</adresseRue>
+		<adresseCPVille>44100 Nantes</adresseCPVille>
+		<email>nantes@groupe-odis.fr</email>
+	</elem>
+	<elem>
+		<id>5</id>
+		<localisation>49</localisation>
+		<nom>Odis 49</nom>
+		<telephone>02 41 87 64 11</telephone>
+		<adresseRue>17 Rue Amede Gordini</adresseRue>
+		<adresseCPVille>49070 Beaucouz&#xE9;</adresseCPVille>
+		<email>angers@groupe-odis.fr</email>
+	</elem>	
+	<elem>
+		<id>6</id>
+		<localisation>50</localisation>
+		<nom>SIMA Avranches</nom>
+		<telephone>02 33 79 09 90</telephone>
+		<adresseRue>28, bd du Luxembourg</adresseRue>
+		<adresseCPVille>50300 Avranches</adresseCPVille>
+		<email>avranches@groupe-odis.fr</email>
+	</elem>
+	<elem>
+		<id>7</id>
+		<localisation>50</localisation>
+		<nom>SIMA Cherbourg</nom>
+		<telephone>02 33 08 23 45</telephone>
+		<adresseRue>ZA Le Pont </adresseRue>
+		<adresseCPVille>50690 Martinvast</adresseCPVille>
+		<email>cherbourg@groupe-odis.fr</email>
+	</elem>
+	<elem>
+		<id>7</id>
+		<localisation>50</localisation>
+		<nom>SIMA Granville</nom>
+		<telephone>02 33 08 23 45</telephone>
+		<adresseRue>140 rue des entrepreneurs</adresseRue>
+		<adresseCPVille>50403 Granville</adresseCPVille>
+		<email>--</email>
+	</elem>
+	<elem>
+		<id>8</id>
+		<localisation>56</localisation>
+		<nom>Bertho-Lamour Lorient</nom>
+		<telephone>02 97 89 88 95</telephone>
+		<adresseRue>Rue lavoisier</adresseRue>
+		<adresseCPVille>56530 Quevenh</adresseCPVille>
+		<email>lorient@groupe-odis.fr</email>
+	</elem>
+	<elem>
+		<id>9</id>
+		<localisation>56</localisation>
+		<nom>Bertho-Lamour Vannes</nom>
+		<telephone>02 97 42 43 52</telephone>
+		<adresseRue>ZA de Pentaparc, Rue Jean Guyomarc&#x2019;h</adresseRue>
+		<adresseCPVille>56450 Theix</adresseCPVille>
+		<email>vannes@groupe-odis.fr</email>
+	</elem>
+	<elem>
+		<id>10</id>
+		<localisation>72</localisation>
+		<nom>Odis 72</nom>
+		<telephone>02 43 24 08 08</telephone>
+		<adresseRue>10, All&#xE9;e du vivier</adresseRue>
+		<adresseCPVille>72700 Allonnes</adresseCPVille>
+		<email>dc@groupe-odis.fr</email>
+	</elem>
+</contacts>
