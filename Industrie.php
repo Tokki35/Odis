@@ -3,7 +3,7 @@
 <!-- Contenu -->
 <div style="margin-top: 120px;">
   <?php $cheminImg = "inc/img/Industrie/"; ?>
-  <img style="display: inline;margin-left:5px;float:left" src="<?php echo $cheminImg; ?>industrie.png" />
+  <img id="sidebar" style="display: inline;margin-left:5px;float:left" src="<?php echo $cheminImg; ?>industrie.png" />
 	<div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1000px;">
     <br /><br />
     <p>Le groupe ODIS s’est également spécialisé dans la distribution de fournitures industrielles. Nous avons développé une offre produits innovante et complète afin de répondre aux besoins de ses clients travaillant dans des domaines aussi variés que l’industrie, l’agro-alimentaire, l’agriculture, les travaux publics, la collectivité …</p>
@@ -70,6 +70,19 @@
 <!-- Contenu -->
 <script>
 $(function () {
+    var offset = $("#sidebar").offset();
+    var topPadding = 0;
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > offset.top) {
+            $("#sidebar").stop().animate({
+                marginTop: $(window).scrollTop() - offset.top + topPadding
+            });
+        } else {
+            $("#sidebar").stop().animate({
+                marginTop: 0
+            });
+        };
+    });
   document.getElementById("menuIndustrie").className= 'dropdown open';
   $('#menuIndustrie').on('mouseleave', function(e) {
   		document.getElementById('ulIndustrie').autoHidingNavbar('setDisableAutohide', true);
