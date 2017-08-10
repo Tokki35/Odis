@@ -1,17 +1,19 @@
 <?php include ('inc/_header.php');?>							
 
 <!-- Contenu -->
-<div style="margin-top: 120px;">
-  <?php $cheminImg = "inc/img/Automobile/"; ?>
-  <img style="display: inline;margin-left:5px;float:left" src="<?php echo $cheminImg; ?>automobile.png" />
-	<div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1000px;">
+
+<?php $cheminImg = "inc/img/Automobile/"; ?>
+<img id="sidebar" style="margin-left:0px;margin-top: 120px;display: inline;float:left" src="<?php echo $cheminImg; ?>automobile.png" />
+
+<div id="content" style="margin-top: 120px;">
+  <div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1000px;">
     <br /><br />
     <p>Le groupe ODIS vous propose de nombreuses références en Automobile allant des pièces techniques aux équipements intérieurs et extérieurs de votre véhicule. Grâce à de partenariats avec de grandes marques, nous vous proposons des produits contrôlés et de qualité  pour satisfaire l’ensemble de vos besoins.
     </p>
   </div>
 
     <img style="display: inline;float:left" src="<?php echo $cheminImg; ?>notreOffre.png" />
-    <div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1050px;">
+    <div style="font-size:1.1em;display:inline;float:left;margin-left:30px;margin-top:-20px;width:1050px;">
       <br />
       <p>Notre gamme s’articule autour de 11 familles de produits.</p>
       <br />
@@ -32,21 +34,21 @@
       </div>
     </div>
     <img style="display: inline;float:left" src="<?php echo $cheminImg; ?>nosForces.png" />
-    <div style="margin-top: 20px;float:left;margin-left:2%">
+    <div style="margin-top: 20px;float:left">
       <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Equipementier.png" />
       <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Budget.png" />
       <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Carrosserie.png" />
       <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo PRE.png" />
       <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Origine.png" />
   </div>
-    <div style="display:inline;float:left;margin-left:30px;width:1000px;font-size:1.1em;">
+    <div style="display:inline;float:left;margin-left:30px;margin-top:-20px;width:1000px;font-size:1.1em;">
       <br />
       <p>Notre gamme Automobile est essentiellement composée de pièces d’origine.  Grâce à de partenariats avec de grandes marques, nous sommes en mesure de vous proposer des produits de qualité et contrôlés pour satisfaire au mieux l’ensemble de vos besoins. 
       </p>
       <br />
     </div>
-    <img style="display: inline;float:left;margin-left:50px; width:30%" src="<?php echo $cheminImg; ?>precisium.png" />   
-    <img style="display: inline;float:left;margin-left:50px; width:30%" src="<?php echo $cheminImg; ?>garageEtCo.png" />
+    <img id="precisium" style="display: inline;float:left;margin-left:50px; width:30%" src="<?php echo $cheminImg; ?>precisium.png" />   
+    <img id="garageEtco" style="display: inline;float:left;margin-left:50px; width:30%" src="<?php echo $cheminImg; ?>garageEtCo.png" />
     
     <div style="display:inline;float:left;margin-left:30px;width:1000px;font-size:1.1em;">
       <marquee behavior="alternate" scrollamount="2" scrolldelay="50" height="180" width="100%" style="margin-top:50px;text-align: center;" direction="right">
@@ -72,6 +74,23 @@
 <!-- Contenu -->
 <script>
 $(function () {
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= 315) {
+           $("#sidebar").css("position","fixed");
+           $("#sidebar").css("top","0px");
+           $("#sidebar").css("margin-top","0px");
+           $("#content").css("margin-left","400px");
+           $("#precisium").css("width","45%");
+           $("#garageEtco").css("width","45%");
+        }    
+        else{
+           $("#sidebar").css("position","");
+           $("#sidebar").css("margin-top","120px");
+           $("#content").css("margin-left","0px");
+           $("#precisium").css("width","30%");
+           $("#garageEtco").css("width","30%");
+        }     
+    });
   document.getElementById("menuAuto").className= 'dropdown open';
   $('#menuAuto').on('mouseleave', function(e) {
   		document.getElementById('ulAuto').autoHidingNavbar('setDisableAutohide', true);

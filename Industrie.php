@@ -12,7 +12,7 @@
   </div>
 
     <img style="display: inline;float:left" src="<?php echo $cheminImg; ?>notreOffre.png" />
-    <div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1000px;">
+    <div style="font-size:1.1em;display:inline;float:left;margin-left:30px;margin-top:-20px;width:1000px;">
       <br />
       <p>Notre gamme s’articule autour de 10 familles de produits.</p>
       <br />
@@ -31,7 +31,7 @@
       </div>
     </div>
     <img style="display: inline;float:left" src="<?php echo $cheminImg; ?>nosForces.png" />
-    <div style="display:inline;float:left;margin-left:30px;width:1000px;font-size:1.1em;">
+    <div style="display:inline;float:left;margin-left:30px;margin-top:-20px;width:1000px;font-size:1.1em;">
       <br />
       <p>Deux experts soudage accompagnés des commerciaux spécialisés, vous apporte des conseils et une étude détaillée sur les besoins clients,</p>
       <br />

@@ -54,7 +54,7 @@ function menuElem($intitule,$url,$chemin,$class=null){
                   	echo menuElem("Echappement","Automobile/echappement",$chemin); 
                   	echo menuElem("Electricité","Automobile/electricite",$chemin); 
                   	echo menuElem("Accessoires","Automobile/Accessoires",$chemin); 
-                  	echo menuElem("Entretient et nettoyage","Automobile/nettoyage",$chemin); 
+                  	echo menuElem("Entretien et nettoyage","Automobile/nettoyage",$chemin); 
                   ?>    
                 </ul>
               </li>
@@ -81,7 +81,7 @@ function menuElem($intitule,$url,$chemin,$class=null){
                 <ul id="ulPeinture" class="dropdown-menu">
                   <li role="separator" class="divider"></li>  
                    <?php 
-                  	echo menuElem("Peinture Automobile <br />Et Poids Lourds","Peinture/peintAutoPoidsLourds",$chemin,"jaune"); 
+                  	echo menuElem("Peinture Automobiles <br />et Poids Lourds","Peinture/peintAutoPoidsLourds",$chemin,"jaune"); 
                   	echo menuElem("Peinture industrie","Peinture/peintureIndustrie",$chemin,"jaune"); 
                     echo menuElem("Abrasifs.","Peinture/abrasifs",$chemin,"jaune"); 
                     echo menuElem("Masquage","Peinture/masquage",$chemin,"jaune"); 
