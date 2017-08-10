@@ -32,6 +32,13 @@
       </div>
     </div>
     <img style="display: inline;float:left" src="<?php echo $cheminImg; ?>nosForces.png" />
+    <div style="margin-top: 20px;float:left;margin-left:2%">
+      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Equipementier.png" />
+      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Budget.png" />
+      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Carrosserie.png" />
+      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo PRE.png" />
+      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Origine.png" />
+  </div>
     <div style="display:inline;float:left;margin-left:30px;width:1000px;font-size:1.1em;">
       <br />
       <p>Notre gamme Automobile est essentiellement composée de pièces d’origine.  Grâce à de partenariats avec de grandes marques, nous sommes en mesure de vous proposer des produits de qualité et contrôlés pour satisfaire au mieux l’ensemble de vos besoins. 

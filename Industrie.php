@@ -1,9 +1,11 @@
 <?php include ('inc/_header.php');?>							
 
 <!-- Contenu -->
-<div style="margin-top: 120px;">
-  <?php $cheminImg = "inc/img/Industrie/"; ?>
-  <img id="sidebar" style="display: inline;margin-left:5px;float:left" src="<?php echo $cheminImg; ?>industrie.png" />
+
+<?php $cheminImg = "inc/img/Industrie/"; ?>
+<img id="sidebar" style="margin-left:0px;margin-top: 120px;display: inline;float:left" src="<?php echo $cheminImg; ?>industrie.png" />
+
+<div id="content" style="margin-top: 120px;">
 	<div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1000px;">
     <br /><br />
     <p>Le groupe ODIS s’est également spécialisé dans la distribution de fournitures industrielles. Nous avons développé une offre produits innovante et complète afin de répondre aux besoins de ses clients travaillant dans des domaines aussi variés que l’industrie, l’agro-alimentaire, l’agriculture, les travaux publics, la collectivité …</p>
@@ -70,18 +72,18 @@
 <!-- Contenu -->
 <script>
 $(function () {
-    var offset = $("#sidebar").offset();
-    var topPadding = 0;
     $(window).scroll(function() {
-        if ($(window).scrollTop() > offset.top) {
-            $("#sidebar").stop().animate({
-                marginTop: $(window).scrollTop() - offset.top + topPadding
-            });
-        } else {
-            $("#sidebar").stop().animate({
-                marginTop: 0
-            });
-        };
+        if ($(window).scrollTop() >= 315) {
+           $("#sidebar").css("position","fixed");
+           $("#sidebar").css("top","0px");
+           $("#sidebar").css("margin-top","0px");
+           $("#content").css("margin-left","400px");
+        }    
+        else{
+           $("#sidebar").css("position","");
+           $("#sidebar").css("margin-top","120px");
+           $("#content").css("margin-left","0px");
+        }     
     });
   document.getElementById("menuIndustrie").className= 'dropdown open';
   $('#menuIndustrie').on('mouseleave', function(e) {

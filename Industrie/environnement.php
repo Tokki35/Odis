@@ -1,30 +1,31 @@
 <?php include ('../inc/_header.php');?>							
 <!-- Contenu -->
 
-<div style="margin-top: 120px;">
-	<?php $cheminImg = "../inc/img/Industrie/ENVIRONNEMENT/"; ?>
-  <?php $cheminImgBandeau = "../inc/img/Industrie/"; ?>
-  <img style="margin-left:5px;float:left" src="<?php echo $cheminImg; ?>Visuel.png" />   
-  <div style="margin-top: 30px;float:left;margin-left:1%;width:70%">
+<?php $cheminImg = "../inc/img/Industrie/ENVIRONNEMENT/"; ?>
+<?php $cheminImgBandeau = "../inc/img/Industrie/"; ?>
+<img id="sidebar" style="margin-left:0px;margin-top: 120px;float:left" src="<?php echo $cheminImg; ?>Visuel.png" />   
+
+<div id="content" style="margin-top: 120px;">
+  <div  id="paragraphe" style="margin-top: 30px;float:left;width:70%">
     <h1 style="color:rgb(0,176,80)"><img src="../inc/img/puce-H1-2.png" />Environnement - Stockage</h1><br />
     <p style="margin-left:95px;font-size:1.3em;">Avec sa gamme Environnement-Stockage, ODIS vous apporte des solutions pour optimiser le rangement dans vos entreprises,
     <br /> le traitement de vos déchets et sécuriser le stockage de produits dangereux.
 </p>
   </div>
-  <div style="margin-top: 20px;float:left;margin-left:2%">
+  <div style="margin-top: 20px;float:left;">
    <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>bacs de stockage.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>bennes.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>plateformes de rétention.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>conteneurs a dechets.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>bacs a bec.png" />
   </div>
-  <div style="margin-top: 30px;float:left;margin-left:8%">
+  <div style="margin-top: 30px;float:left;">
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>absorbants universel.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>supports de soutirage.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>citernes cuves.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>caisses palettes.png" />    
   </div>
-  <div style="margin-top: 100px;float:left;margin-left:1%;width:70%;">
+  <div id="conseilOdis" style="margin-top: 100px;float:left;width:70%;">
     <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(0,204,102);padding:15px">
     <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />
     Plusieurs critères sont à prendre en compte dans le choix de votre bac de rétention.<br />
@@ -71,7 +72,25 @@
 
 <!-- Contenu -->
 <script>
-$(function () {
+$(function () {  
+  $(window).scroll(function() {
+      if ($(window).scrollTop() >= 315) {
+         $("#sidebar").css("position","fixed");
+         $("#sidebar").css("top","0px");
+         $("#sidebar").css("margin-top","0px");
+         $("#content").css("margin-left","400px");
+         $("#paragraphe").css("width","95%");
+         $("#conseilOdis").css("width","95%");   
+
+      }    
+      else{
+         $("#sidebar").css("position","");
+         $("#sidebar").css("margin-top","120px");
+         $("#content").css("margin-left","0px");
+         $("#paragraphe").css("width","70%");
+         $("#conseilOdis").css("width","70%");   
+      }         
+  });
   document.getElementById("menuIndustrie").className= 'dropdown open';
   document.getElementById("Environnement").style.backgroundColor = 'rgba(0, 204, 102, 0.5)';
 
