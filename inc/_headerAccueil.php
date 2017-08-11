@@ -29,7 +29,24 @@
 			Peintures 
 		</div>-->
 		<div class="textHeader" style="z-index:0;margin-left:250px;margin-top:-30px;"> 
-		<img src="<?php echo $chemin;?>/inc/img/bandeau.png" />
+		<div id="myCarousel" class="carousel slide" data-ride="carousel"  style="height:180px;width:1275px">
+		<ol class="carousel-indicators" style="bottom:0px">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		 </ol>
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner" style="height:100%;width:100%" >
+	      <div class="item active">
+			<img src="<?php echo $chemin;?>/inc/img/bandeau.png" style="height:100%;width:100%" />
+	      </div>
+
+	      <div class="item">
+				<a href="<?php echo $chemin?>/Automobile.php">
+					<img src="<?php echo $chemin;?>/inc/img/bandeau2.png" style="height:100%;width:100%" />
+				</a>
+	      </div>
+	    </div>
+	  </div>
 		</div>
 		<div class="carteMenu carteMenuHi">
 			<img src="<?php echo $chemin;?>/inc/img/carte.png" />

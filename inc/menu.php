@@ -99,9 +99,9 @@ function menuElem($intitule,$url,$chemin,$class=null){
                 <ul class="dropdown-menu" id="ulPrestations">
                   <li role="separator" class="divider"></li>
                   <?php 
-                  	echo menuElem("Service après vente","sav",$chemin); 
+                  	echo menuElem("Service après <br />vente","sav",$chemin); 
                   	echo menuElem("Nos formations","formations",$chemin); 
-                  	echo menuElem("Nos ateliers techniques","ateliers",$chemin); 
+                  	echo menuElem("Nos ateliers <br />techniques","ateliers",$chemin); 
                   ?>         
                 </ul>
               </li>
@@ -111,7 +111,7 @@ function menuElem($intitule,$url,$chemin,$class=null){
                 <ul class="dropdown-menu" id="ulActu">
                   <li role="separator" class="divider"></li>
                   <?php 
-                    echo menuElem("Flash Odis - Odis News","actualites",$chemin); 
+                    echo menuElem("Flash Odis -<br /> Odis News","actualites",$chemin); 
                     echo menuElem("Nos promotions","promotions",$chemin); 
                     echo menuElem("Nous contacter","contact",$chemin); 
                   ?>         
@@ -119,8 +119,8 @@ function menuElem($intitule,$url,$chemin,$class=null){
               </li>
 
               <li id="menuPreci" class="dropdown">
-                <a href="<?php echo $cheminBase; ?>precisium.php" class="dropdown-toggle" data-hover="dropdown">Réseau Précisium <br />&nbsp;</a>
-                <ul class="dropdown-menu" id="ulPreci">
+                <a href="<?php echo $cheminBase; ?>precisium.php" class="dropdown-toggle" data-hover="dropdown">Réseau Précisium</a>
+                <ul style="height: 117.833px;" class="dropdown-menu" id="ulPreci">
                   <li role="separator" class="divider"></li>
                   <?php 
                   ?>         
