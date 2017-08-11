@@ -126,9 +126,6 @@ function menuElem($intitule,$url,$chemin,$class=null){
                   ?>         
                 </ul>
               </li>
-
-
-		    
 		  </ul>
 		</div><!--/.nav-collapse -->
 	</div>

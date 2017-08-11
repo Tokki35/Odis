@@ -18,7 +18,7 @@
       <p>Notre gamme s’articule autour de 11 familles de produits.</p>
       <br />
       <div >
-        <a href="Automobile/liaison.php"><img style="display: inline-block;float:left;margin-left:-20px" src="<?php echo $cheminImg; ?>liaison.png" /></a>
+        <a href="Automobile/liaison.php"><img style="display: inline-block;float:left;margin-left:-25px" src="<?php echo $cheminImg; ?>liaison.png" /></a>
         <a href="Automobile/chauffage.php"><img style="display: inline-block;margin-left:5px;float:left" src="<?php echo $cheminImg; ?>chauffage.png" /></a>
         <a href="Automobile/moteur.php"><img style="display: inline-block;margin-left:5px;float:left" src="<?php echo $cheminImg; ?>moteur.png" /></a>
         <a href="Automobile/pieces.php"><img style="display: inline-block;margin-left:5px;float:left" src="<?php echo $cheminImg; ?>pieces.png" /></a>
