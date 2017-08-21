@@ -34,19 +34,22 @@
       </div>
     </div>
     <img style="display: inline;float:left" src="<?php echo $cheminImg; ?>nosForces.png" />
-    <div style="margin-top: 20px;float:left">
-      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Equipementier.png" />
-      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Budget.png" />
-      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Carrosserie.png" />
-      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo PRE.png" />
-      <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Logo Origine.png" />
-  </div>
     <div style="display:inline;float:left;margin-left:30px;margin-top:-20px;width:1000px;font-size:1.1em;">
       <br />
-      <p>Notre gamme Automobile est essentiellement composée de pièces d’origine.  Grâce à de partenariats avec de grandes marques, nous sommes en mesure de vous proposer des produits de qualité et contrôlés pour satisfaire au mieux l’ensemble de vos besoins. 
+      <p>Le groupe Odis, partenaire du 1<sup>er</sup> réseau multimarques constructeurs et équipementiers en France répond à TOUS vos besoins d'apporvisionnement, grâce à une offre unique répartie en 5 gammes.
       </p>
       <br />
     </div>
+    <div id="div1" style="float:left;width:37%">
+     <p style="width:100%;float:left;font-size: 1.3em;margin-top:100px"><img style="float:left;argin-left: 25px" src="<?php echo $cheminImg; ?>Logo Equipementier.png" /> <b><br /><br /><br />S'entourer des <br />meilleurs fournisseurs. </b></p>
+    <p style="width:100%;float:left;font-size: 1.3em"><img style="float:left;" src="<?php echo $cheminImg; ?>Logo Budget.png" /><b><br /><br /><br />Privilégier les bons<br /> rapports qualité/prix.</b></p>
+    </div>
+     <div id="div2" style="float:left;width:35%">  
+       <p style="width:100%;float:left;font-size: 1.3em;"><img style="float:left;" src="<?php echo $cheminImg; ?>Logo Carrosserie.png" /><br /><br /><br /><b>Bénéficier de pièces de carrosserie<br /> 100% origine.<br /><br /><br /><br /></b></p>
+      <p style="width:100%;float:left;font-size: 1.3em;"><img style="float:left;" src="<?php echo $cheminImg; ?>Logo PRE.png" /><br /><br /><br /><b>Consommer de façon écologique<br /> et économoqie.<br /><br /><br /><br /></b></p>
+      <p style="width:100%;float:left;font-size: 1.3em;"><img style="float:left;" src="<?php echo $cheminImg; ?>Logo Origine.png" /> <br /><br /><br /><b>Profiter d'une offre<br /> complète constructeur.</b></p> 
+    </div>
+    
     <img id="precisium" style="display: inline;float:left;margin-left:50px; width:30%" src="<?php echo $cheminImg; ?>precisium.png" />   
     <img id="garageEtco" style="display: inline;float:left;margin-left:50px; width:30%" src="<?php echo $cheminImg; ?>garageEtCo.png" />
     
@@ -82,6 +85,8 @@ $(function () {
            $("#content").css("margin-left","400px");
            $("#precisium").css("width","45%");
            $("#garageEtco").css("width","45%");
+           $("#div1").css("width","50%");
+           $("#div2").css("width","50%");
         }    
         else{
            $("#sidebar").css("position","");
@@ -89,6 +94,8 @@ $(function () {
            $("#content").css("margin-left","0px");
            $("#precisium").css("width","30%");
            $("#garageEtco").css("width","30%");
+           $("#div1").css("width","37%");
+           $("#div2").css("width","35%");
         }     
     });
   document.getElementById("menuAuto").className= 'dropdown open';

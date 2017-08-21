@@ -1,4 +1,14 @@
-<?php include ('inc/_header.php');?>							
+<?php include ('inc/_header.php');?>		
+
+<style type="text/css">
+  .imgHidden {
+    display: none;
+    width: 50%;
+    position: absolute;
+    left: 360;
+    margin-top: 155;
+  }
+</style>					
 <!-- Contenu -->
 <div class="container" style="margin-top: 120px;">
 	<div class="starter-template">
@@ -9,16 +19,20 @@
     <div style="width:40%;display:inline;float:left;font-size: 1.1em;">
     <img src="inc/img/precisium-nb.png" /><br /><br />
     </div>
-    <img src="inc/img/precisium-pourquoi.png" />
-
-
+    <img src="inc/img/precisium-pourquoi.png"   />
 	</div>
 </div><!-- /.container -->
-<img src="inc/img/precisium-menu.png" width="100%" />
-<img src="inc/img/precisium-image.png" width="100%" />
-<img src="inc/img/precisium-vendre.png" width="100%" />
-<img src="inc/img/precisium-travailler.png" width="100%" />
-<img src="inc/img/precisium-fideliser.png" width="100%" />
+
+ <map name="mouseover_map">
+    <area shape="rect" coords="646,20,1073,140"   href=""   onMouseOver="show('image')"       onMouseOut="hide('image')"        alt="Précisium image"/>
+    <area shape="rect" coords="0,349,290,482"     href=""   onMouseOver="show('vendre')"      onMouseOut="hide('vendre')"       alt="Précisium vendre"/>
+    <area shape="rect" coords="1100,480,1524,580" href=""   onMouseOver="show('travailler')"  onMouseOut="hide('travailler')"   alt="Précisium travailler"/>
+    <area shape="rect" coords="545,740,730,860"   href=""   onMouseOver="show('fideliser')"   onMouseOut="hide('fideliser')"    alt="Précisium fideliser"/>
+ </map>
+<img src="inc/img/precisium-menu.png" width="100%" usemap="#mouseover_map" name="mouseover" />
+
+<img id="img" class="imgHidden" src="" />
+
 <script>
 $(function () {
   document.getElementById("menuPreci").className= 'dropdown open';
@@ -37,5 +51,13 @@ $(function () {
   		document.getElementById('ulPreci').autoHidingNavbar('setDisableAutohide', true);
   });
 });
+
+function show(id){
+  document.getElementById('img').style.display='inline';
+  document.getElementById('img').src ='inc/img/precisium-' + id + '.png';
+}
+function hide(id){
+  document.getElementById('img').style.display='none';
+}
 </script>
 <?php include('inc/_footer.php'); ?>

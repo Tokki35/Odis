@@ -47,14 +47,14 @@ function menuElem($intitule,$url,$chemin,$class=null){
                   	echo menuElem("Liaison au sol","Automobile/liaison",$chemin); 
                   	echo menuElem("Chauffage <br />Climatisation","Automobile/chauffage",$chemin); 
                   	echo menuElem("Moteur","Automobile/moteur",$chemin); 
-                  	echo menuElem("Pièces techniques","Automobile/pieces",$chemin); 
+                  	echo menuElem("Pièces<br /> techniques","Automobile/pieces",$chemin); 
                   	echo menuElem("Visibilité","Automobile/visibilite",$chemin); 
                   	echo menuElem("Freinage","Automobile/freinage",$chemin); 
-                  	echo menuElem("Equipements de garage","Automobile/materiel",$chemin); 
+                  	echo menuElem("Equipements<br /> de garage","Automobile/materiel",$chemin); 
                   	echo menuElem("Echappement","Automobile/echappement",$chemin); 
                   	echo menuElem("Electricité","Automobile/electricite",$chemin); 
                   	echo menuElem("Accessoires","Automobile/Accessoires",$chemin); 
-                  	echo menuElem("Entretien et nettoyage","Automobile/nettoyage",$chemin); 
+                  	echo menuElem("Entretien<br /> et nettoyage","Automobile/nettoyage",$chemin); 
                   ?>    
                 </ul>
               </li>
