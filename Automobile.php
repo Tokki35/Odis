@@ -15,6 +15,7 @@
     <img style="display: inline;float:left" src="<?php echo $cheminImg; ?>notreOffre.png" />
     <div style="font-size:1.1em;display:inline;float:left;margin-left:30px;margin-top:-20px;width:1050px;">
       <br />
+      <p>test</p>
       <p>Notre gamme s’articule autour de 11 familles de produits.</p>
       <br />
       <div >
