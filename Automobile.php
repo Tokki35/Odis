@@ -3,9 +3,9 @@
 <!-- Contenu -->
 
 <?php $cheminImg = "inc/img/Automobile/"; ?>
-<img id="sidebar" style="margin-left:0px;margin-top: 120px;display: inline;float:left" src="<?php echo $cheminImg; ?>automobile.png" />
+<img id="sidebar" style="margin-left:0px;display: inline;float:left" src="<?php echo $cheminImg; ?>automobile.png" />
 
-<div id="content" style="margin-top: 120px;">
+<div id="content">
   <div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1000px;">
     <br /><br />
     <p>Le groupe ODIS vous propose de nombreuses références en Automobile allant des pièces techniques aux équipements intérieurs et extérieurs de votre véhicule. Grâce à de partenariats avec de grandes marques, nous vous proposons des produits contrôlés et de qualité  pour satisfaire l’ensemble de vos besoins.
@@ -90,14 +90,25 @@ $(function () {
         }    
         else{
            $("#sidebar").css("position","");
-           $("#sidebar").css("margin-top","120px");
+           $("#sidebar").css("margin-top","0px");
            $("#content").css("margin-left","0px");
            $("#precisium").css("width","30%");
            $("#garageEtco").css("width","30%");
            $("#div1").css("width","37%");
            $("#div2").css("width","35%");
         }     
-    });
+    });   
+
+  document.getElementById("navbar").onmouseout = function() {
+          document.getElementById('content').style.marginTop = "0px";
+          document.getElementById('sidebar').style.marginTop = "0px";
+  } 
+  document.getElementById("navbar").onmouseover = function() {
+        document.getElementById('content').style.marginTop = "120px";
+        document.getElementById('sidebar').style.marginTop = "120px";
+   }
+
+  /*
   document.getElementById("menuAuto").className= 'dropdown open';
   $('#menuAuto').on('mouseleave', function(e) {
   		document.getElementById('ulAuto').autoHidingNavbar('setDisableAutohide', true);
@@ -112,7 +123,7 @@ $(function () {
       document.getElementById('menuPreci').className= 'dropdown';
 
   		document.getElementById('ulAuto').autoHidingNavbar('setDisableAutohide', true);
-  });
+  });*/
 });
 </script>
 <?php include('inc/_footer.php'); ?>

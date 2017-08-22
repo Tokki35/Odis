@@ -20,7 +20,7 @@ if(isset($_POST['titre'])){
 }
 ?>				
 <!-- Contenu -->
-<div class="container" style="margin-top: 120px;">
+<div class="container" style="margin-top: 120px">
 	<div class="starter-template">
    <div style="width:100%;display:inline;float:left;font-size: 1.1em;">
 		<h1><img src="inc/img/puce-h1.png">Nous <b>C</b>ontacter</h1> 

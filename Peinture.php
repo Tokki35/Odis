@@ -3,9 +3,9 @@
 <!-- Contenu -->   
 
 <?php $cheminImg = "inc/img/Peinture/"; ?>
-<img id="sidebar" style="margin-left:0px;margin-top: 120px;display: inline;float:left" src="<?php echo $cheminImg; ?>peinture.png" />         
+<img id="sidebar" style="margin-left:0pxdisplay: inline;float:left" src="<?php echo $cheminImg; ?>peinture.png" />         
 
-<div id="content" style="margin-top: 120px;">
+<div id="content">
   <div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1000px;">
     <br /><br />
     <p>Le groupe ODIS vous propose toute une gamme de solutions Peinture dans plusieurs secteurs d’activités  :  les matériels de transport et agricoles, les travaux publics, l’industrie et les constructions métalliques.</p>
@@ -79,10 +79,21 @@ $(function () {
         }    
         else{
            $("#sidebar").css("position","");
-           $("#sidebar").css("margin-top","120px");
+           $("#sidebar").css("margin-top","0px");
            $("#content").css("margin-left","0px");
         }     
     });
+
+  document.getElementById("navbar").onmouseout = function() {
+          document.getElementById('content').style.marginTop = "0px";
+          document.getElementById('sidebar').style.marginTop = "0px";
+  } 
+  document.getElementById("navbar").onmouseover = function() {
+        document.getElementById('content').style.marginTop = "120px";
+        document.getElementById('sidebar').style.marginTop = "120px";
+   }
+
+    /*
   document.getElementById("menuPeinture").className= 'dropdown open';
   $('#menuPeinture').on('mouseleave', function(e) {
   		document.getElementById('ulPeinture').autoHidingNavbar('setDisableAutohide', true);
@@ -97,7 +108,7 @@ $(function () {
       document.getElementById('menuPreci').className= 'dropdown';
       
   		document.getElementById('ulPeinture').autoHidingNavbar('setDisableAutohide', true);
-  });
+  });*/
 });
 </script>
 <?php include('inc/_footer.php'); ?>

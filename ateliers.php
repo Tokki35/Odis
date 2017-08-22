@@ -1,6 +1,6 @@
 <?php include ('inc/_header.php');?>							
 <!-- Contenu -->
-<div class="container" style="margin-top: 120px;">
+<div class="container" style="margin-top: 120px">
 	<div class="starter-template">
 
     

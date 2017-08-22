@@ -3,9 +3,9 @@
 <!-- Contenu -->
 
 <?php $cheminImg = "inc/img/Industrie/"; ?>
-<img id="sidebar" style="margin-left:0px;margin-top: 120px;display: inline;float:left" src="<?php echo $cheminImg; ?>industrie.png" />
+<img id="sidebar" style="margin-left:0px;display: inline;float:left" src="<?php echo $cheminImg; ?>industrie.png" />
 
-<div id="content" style="margin-top: 120px;">
+<div id="content">
 	<div style="font-size:1.1em;display:inline;float:left;margin-left:30px;width:1000px;">
     <br /><br />
     <p>Le groupe ODIS s’est également spécialisé dans la distribution de fournitures industrielles. Nous avons développé une offre produits innovante et complète afin de répondre aux besoins de ses clients travaillant dans des domaines aussi variés que l’industrie, l’agro-alimentaire, l’agriculture, les travaux publics, la collectivité …</p>
@@ -81,10 +81,21 @@ $(function () {
         }    
         else{
            $("#sidebar").css("position","");
-           $("#sidebar").css("margin-top","120px");
+           $("#sidebar").css("margin-top","0px");
            $("#content").css("margin-left","0px");
         }     
     });
+
+  document.getElementById("navbar").onmouseout = function() {
+          document.getElementById('content').style.marginTop = "0px";
+          document.getElementById('sidebar').style.marginTop = "0px";
+  } 
+  document.getElementById("navbar").onmouseover = function() {
+        document.getElementById('content').style.marginTop = "120px";
+        document.getElementById('sidebar').style.marginTop = "120px";
+   }
+
+  /*
   document.getElementById("menuIndustrie").className= 'dropdown open';
   $('#menuIndustrie').on('mouseleave', function(e) {
   		document.getElementById('ulIndustrie').autoHidingNavbar('setDisableAutohide', true);
@@ -99,7 +110,7 @@ $(function () {
       document.getElementById('menuPreci').className= 'dropdown';
 
   		document.getElementById('ulIndustrie').autoHidingNavbar('setDisableAutohide', true);
-  });
+  });*/
 });
 </script>
 <?php include('inc/_footer.php'); ?>

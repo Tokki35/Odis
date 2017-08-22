@@ -1,6 +1,6 @@
 <?php include ('inc/_header.php');?>							
 <!-- Contenu -->
-<div class="container" style="margin-top: 120px;">
+<div id="container" style="margin-top: 120px"> <!-- style="margin-top: 120px;" -->
 	<div class="starter-template">
   <div style="width:50%;display:inline;float:left;font-size:1.1em;">
   		<h1><img src="inc/img/puce-h1.png"><b>P</b>résentation du groupe</h1>

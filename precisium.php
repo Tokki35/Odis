@@ -10,7 +10,7 @@
   }
 </style>					
 <!-- Contenu -->
-<div class="container" style="margin-top: 120px;">
+<div class="container" style="margin-top: 120px">
 	<div class="starter-template">
 		<h1><img src="inc/img/puce-h1.png">Un <b>S</b>avoir-Faire Réseau</h1>
      <p style="width:60%;display:inline;float:left;font-size: 1.1em;">
@@ -35,6 +35,7 @@
 
 <script>
 $(function () {
+
   document.getElementById("menuPreci").className= 'dropdown open';
   $('#menuPreci').on('mouseleave', function(e) {
   		document.getElementById('ulPreci').autoHidingNavbar('setDisableAutohide', true);
