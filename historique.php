@@ -85,10 +85,10 @@ img{
   <div class="starter-template"> 
   <div style="width:70%;display:inline;float:left;font-size: 1.1em;">
       <h1><img src="inc/img/puce-h1.png"><b>H</b>istorique du groupe</h1>
-      <p style="width:70%;display:inline;float:left;">En 2000, la société Comptoir Auto Paris Rennes, basée à Saint-Grégoire, est rachetée par Mr Philippe DELAMOTTE. Elle sera connue peu de temps après sous le nom de CAPR. <br /><br />
+      <p style="width:70%;display:inline;float:left;">En 2000, la société Comptoir Auto Paris Rennes, basée à Saint-Grégoire, est rachetée par Mr Philippe DELAMOTTE. Désormais plus connue sous le nom de CAPR. <br /><br />
       Le groupe Odis voit le jour en 2006 lors de l’acquisition des sociétés Bertho-Lamour et Difac.
       L’année 2011 est marquée par la mise en place de la plateforme d’approvisionnement « Appr’Odis » permettant de centraliser les approvisionnements. <br /><br />
-      A partir de 2006, le groupe ne cesse de croître, comptant aujourd’hui 11 agences réparties dans le Grand Ouest avec un chiffre d'affaires de plus de … millions en 2016.
+      A partir de 2006, le groupe ne cesse de croître, comptant aujourd’hui 11 agences réparties dans le Grand Ouest avec un chiffre d'affaires de plus de 41 millions en 2016.
       </p>      
   </div>
   <div style="width:30%;display:inline;float:left;margin-top: -100px;">

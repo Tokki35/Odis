@@ -32,7 +32,7 @@
   </div>
   <div id="conseilOdis" style="margin-top: 100px;float:left;width:70%;">
     <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(0,204,102);padding:15px">
-    <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />Afin de bien choisir votre huile de lubrification des roulements, il est nécessaire de prendre en compte sa viscosité. Elle fluctuera en fonction de la température et cette variation se caractérisera par l’indice de viscosité (VI). Ainsi, les équipement travaillant sur une large variation de température nécessitent des huiles à haut VI.
+    <img src="<?php echo $cheminImgBandeau; ?>conseilOdis.PNG" style="margin-left:10px;margin-top:-90px;"/><br />Afin de bien choisir votre huile de lubrification des roulements, il est nécessaire de prendre en compte sa viscosité. Elle fluctuera en fonction de la température et cette variation se caractérisera par l’indice de viscosité (VI). Ainsi, les équipement travaillant sur une large variation de température nécessitent des huiles à indice élevé.
     </p>
   </div> 
 

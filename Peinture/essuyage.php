@@ -12,10 +12,10 @@
     </p>
   </div>
   <div style="margin-top: 20px;float:left">
-   <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Cottons à lustrer.png" />
-   <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Liquide polissage.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Bobines essuyage.png" />
     <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Chiffons.png" />
+   <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Cottons à lustrer.png" />
+   <img style="margin-left: 25px;" src="<?php echo $cheminImg; ?>Liquide polissage.png" />
   </div>
   <div id="conseilOdis" style="margin-top: 100px;float:left;width:70%">
   <p style="margin-left:95px;font-size:1.3em;border:2px solid rgb(255,192,0);padding:15px">

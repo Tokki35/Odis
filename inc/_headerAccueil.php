@@ -33,6 +33,8 @@
 		<ol class="carousel-indicators" style="bottom:0px">
 		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		    <li data-target="#myCarousel" data-slide-to="3"></li>
 		 </ol>
 	    <!-- Wrapper for slides -->
 	    <div class="carousel-inner" style="height:100%;width:100%" >
@@ -44,6 +46,15 @@
 				<a href="<?php echo $chemin?>/Automobile.php">
 					<img src="<?php echo $chemin;?>/inc/img/bandeau2.png" style="height:100%;width:100%" />
 				</a>
+	      </div>
+
+	        <div class="item">
+				<a href="<?php echo $chemin?>/Actualités.php">
+					<img src="<?php echo $chemin;?>/inc/img/bandeau3.png" style="height:100%;width:100%" />
+				</a>
+	      </div>
+	        <div class="item">
+				<img src="<?php echo $chemin;?>/inc/img/bandeau4.png" style="height:100%;width:100%" />
 	      </div>
 	    </div>
 	  </div>

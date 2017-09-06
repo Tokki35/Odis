@@ -47,18 +47,18 @@
 		</script>
 <br />
 <div id="map_All" style="margin-top: 120px;height: 500px; width:70%"></div>
-<p style="font-size:2em;position: absolute;top: 370;left: 66%;">
-	<b style="color:red">C</b><b>APR (35)</b><br />
-	<b style="color:red">O</b><b>DIS 35 (35)</b><br />
-	<b style="color:red">O</b><b>DIS</b> <b style="color:red">I</b><b>NJECTION (35)</b><br />
-	<b style="color:red">O</b><b>DIS 49 - <b style="color:red">C</b>OMPTOIR DE L'OUEST (49)</b><br />
-	<b style="color:red">B</b><b>ERTHO </b><b style="color:red">L</b><b>AMOUR Vannes (56)</b><br />
-	<b style="color:red">B</b><b>ERTHO </b><b style="color:red">L</b><b>AMOUR Lorient (56)</b><br />
-	<b style="color:red">S</b><b>IMA Granville (50)</b><br />
-	<b style="color:red">S</b><b>IMA Cherbourg (50)</b><br />
-	<b style="color:red">S</b><b>IMA Avranches (50)</b><br />
-	<b style="color:red">D</b><b>IFAC (44)</b><br />
-	<b style="color:red">D</b><b>IFAC </b><b style="color:red">S</b><b>UD (44)</b>
+<p style="font-size:1.5em;position: absolute;top: 370;left: 66%;">
+	(35) <b style="color:red">C</b><b>APR</b><br />
+	(35) <b style="color:red">O</b><b>DIS 35</b><br />
+	(35) <b style="color:red">O</b><b>DIS</b> <b style="color:red">I</b><b>NJECTION</b><br />
+	(49) <b style="color:red">O</b><b>DIS 49 - <b style="color:red">C</b>OMPTOIR DE L'OUEST</b><br />
+	(56) <b style="color:red">B</b><b>ERTHO </b><b style="color:red">L</b><b>AMOUR Vannes</b><br />
+	(56) <b style="color:red">B</b><b>ERTHO </b><b style="color:red">L</b><b>AMOUR Lorient</b><br />
+	(50) <b style="color:red">S</b><b>IMA Granville</b><br />
+	(50) <b style="color:red">S</b><b>IMA Cherbourg</b><br />
+	(50) <b style="color:red">S</b><b>IMA Avranches</b><br />
+	(44) <b style="color:red">D</b><b>IFAC</b><br />
+	(44) <b style="color:red">D</b><b>IFAC </b><b style="color:red">S</b><b>UD</b>
 </p>
 <br />
 </div><!-- /.container -->

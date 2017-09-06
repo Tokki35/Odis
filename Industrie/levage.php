@@ -9,7 +9,7 @@
   <div id="paragraphe" style="margin-top: 30px;float:left;width:70%">
     <h1 style="color:rgb(0,176,80)"><img src="../inc/img/puce-H1-2.png" />Levage - Manutention</h1><br />
     <p style="margin-left:95px;font-size:1.3em;">Le groupe ODIS s’adapte à vos problématiques de maintenance et levage et vous propose des équipements fiables et efficaces.
-    <br />Nos techniciens qualifiés vous accompagnent également dans l’installation et la maintenance de vos systèmes de levage et de ponts roulants. 
+    <br />Nos techniciens qualifiés vous accompagnent également dans l’installation et la maintenance de vos systèmes de levage. 
 </p>
   </div>
   <div style="margin-top: 20px;float:left">
